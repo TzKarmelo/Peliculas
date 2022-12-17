@@ -1,0 +1,264 @@
+a:link {
+    text-decoration: none;
+    color: indigo;
+    font-weight: bolder;
+    text-shadow: 0px 0px 15px white;
+    font-size: large;
+}
+
+a:visited {
+    text-decoration: none;
+    color: darkslateblue;
+    font-weight: bolder;
+    text-shadow: 0px 0px 15px white;
+    font-size: large;
+}
+
+a:visited:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0px 0px 10px black;
+    font-size: large;
+}
+
+a:link:hover {
+    color:white;
+    font-size: large;
+    font-weight: bolder;
+    text-shadow: 0px 0px 10px black;
+}
+
+.background {
+    background-image: url('https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2017/03/Captura-de-pantalla-2017-03-30-a-las-11.59.05.png?fit=1200%2C600&quality=60&strip=all&ssl=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+
+.burguer {
+    border: 4px solid white;
+}
+
+#container {
+    background-image: linear-gradient(
+        to bottom right,
+        #9664bb 0%,
+        #6f37a4 20%,
+        #95289b 40%,
+        #fe7098 60%,
+        #f973d2 80%
+    );
+    background-size:  200% 200%;
+    animation: movimiento 5s linear infinite alternate;
+
+    border: 4px solid darkmagenta;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+#container :hover {
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+.button {
+    border: 4px solid white;
+    border-radius: 5px;
+    background-color: hotpink;
+    color: indigo;
+    text-shadow: 0px 0px 10px white;
+    font-weight: bold;
+}
+
+.button:hover {
+    border: 4px solid indigo;
+    border-radius: 5px;
+    background-color: hotpink;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    font-weight: bold;
+}
+
+#drop {
+    background-image: linear-gradient(
+        to bottom right,
+        #9664bb 0%,
+        #6f37a4 20%,
+        #95289b 40%,
+        #fe7098 60%,
+        #f973d2 80%
+    );
+    background-size:  200% 200%;
+    animation: movimiento 5s linear infinite alternate;
+    border: 4px solid darkmagenta;
+}
+
+#drop :hover {   
+    background-image: linear-gradient(
+        to bottom right,
+        #9664bb 0%,
+        #6f37a4 20%,
+        #95289b 40%,
+        #fe7098 60%,
+        #6f37a4 80%
+    );
+    background-size:  200% 200%;
+     
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    font-weight: bold;
+}
+
+.userDiv {
+    padding-left:100px;
+}
+
+.userP {
+    color:white;
+    font-weight:bolder; 
+    margin-bottom: 0px;
+    text-shadow: 0px 0px 10px black;
+}
+
+a.activa {
+    color:white;
+    text-shadow: 0px 0px 10px white;
+}
+
+a.inactiva {
+    color:black;
+    text-shadow: 0px 0px 10px white;
+}
+
+a.inactiva:hover {
+    color:yellow;
+    text-shadow: 0px 0px 10px black;
+}
+
+.divFoot {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    color: white;
+}
+
+.navLog {
+    padding: 0;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+}
+
+.h1Log {
+    font-weight: bolder; 
+    color: white;
+    text-shadow: 0px 0px 10px black; 
+    font-size:xx-large;
+}
+
+.divLog {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.divBus {
+    width: 30%;
+    padding-top :100px;
+    padding-left:20px;
+}
+
+.spanBus {
+    color:white;
+    margin-left:30px;
+    background-color:red;
+}
+
+.divCon {
+    width: 90%;padding-left :200px;
+}
+
+#contenedor {
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+.spanCon {
+    color:white;
+    background-color:red;
+    font-size:large;
+}
+
+.divCard {
+    margin:15px;
+    padding: 5px;
+    width: 230px;
+    text-align: center; 
+    border: 8px solid black;
+    border-radius: 15px;
+    background-image: linear-gradient(
+        to bottom right,
+        #403b44be 0%,
+        #130a1da4 20%,
+        #2c0d2ea2 40%,
+        #444118a1 60%,
+        #66495e98 80%
+    );
+    background-size:  200% 200%;
+    animation: movimiento 4s ease infinite alternate;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+}
+
+.imgCard {
+    width: 180px; 
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.h5Card {
+    color:white; 
+    text-shadow:0px 0px 1px white; 
+    height: 90px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.liCard {
+    height: 150px;
+}
+
+.divPag {
+    width:90%;
+}
+
+.divRow {
+    background-color:rgba(40, 141, 209, 0.699);
+    width: 60%;
+    position:relative;
+    left: 25%;
+    box-shadow: 0px 0px 10px white;
+}
+
+.pPag {
+    color:white;
+    font-size:large;
+    text-shadow: 0px 0px 10px white;
+    padding-left:10px;
+    font-weight:bold;
+}
+
+#ullist {
+    background-color: #ffffffc4 !important;
+}
